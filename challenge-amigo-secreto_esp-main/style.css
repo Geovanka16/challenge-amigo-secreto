@@ -26,8 +26,12 @@ body {
 .main-content {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: auto;
     width: 100%;
+    max-width: 600px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
 }
 
 /* Banner */
@@ -36,7 +40,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 0 0;
+    padding: 20px 0 0;
 }
 
 /* Sección de entrada */
@@ -113,8 +117,12 @@ button {
     border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
+button:hover {
+    transform: scale(1.03);
+}
 .button-add {
     background-color: var(--color-tertiary);
     color: var(--color-text);
