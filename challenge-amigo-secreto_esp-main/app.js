@@ -27,3 +27,13 @@ function actualizarLista() {
     } 
 }
 
+function sortearAmigo () {
+    if (listaDeAmigos.length === 0) {
+        alert('Por favor, inserte un nombre.');
+        return;
+    }
+    let indiceAleatorio = Math.floor(Math.random()*listaDeAmigos.length);
+    let nombreGenerado = listaDeAmigos[indiceAleatorio];
+    let resultado = document.getElementById('resultado');
+    resultado.innerHTML = `El amigo secreto es ${nombreGenerado}<li>`;
+}
