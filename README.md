@@ -31,9 +31,10 @@ _Haz click en **"Añadir"**_
 _Cuando estén todos tus amigos en lista, usa **"Sortear amigo"** para obtener un resultado aleatorio_
 
 <p align="center">
-  <img src="./assets/cap-1.jpg"
+  <img src="challenge-amigo-secreto_esp-main/assets/cap-1.jpg"
 alt="Vista del proyecto funcionando" width="500">
 </p>
+
 ---
 
 ### Características ⌨️
